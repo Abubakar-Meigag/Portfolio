@@ -11,7 +11,7 @@ export const data = [
     name: "Beko Videos Full Stack app",
     image: videos,
     github: "https://github.com/Abubakar-Meigag/Full-Stack-Project-Assessment",
-    live: "beko-video-project-fs-assessment-frontend.onrender.com/",
+    live: "https://beko-video-project-fs-assessment-frontend.onrender.com/",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const data = [
     name: "Chat server - Node with ReactJS",
     image: chatServer,
     github: "https://github.com/Abubakar-Meigag/chat-server-react-app",
-    live: "beko-chat-server.netlify.app/",
+    live: "https://beko-chat-server.netlify.app/",
   },
   {
     id: 4,
