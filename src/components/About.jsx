@@ -22,6 +22,8 @@ const About = () => {
               Hi, I'm Abubakar, Thanks to visit my Portfolio. Please check my
               work and contact with me via below contact Box or by my Email
             </p>
+            <br />
+            <p className="sm:text-right text-3xl font-bold pb-5">Thank you</p>
           </div>
 
           <div>
