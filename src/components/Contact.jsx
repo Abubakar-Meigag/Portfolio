@@ -8,7 +8,7 @@ const Contact = () => {
     >
       <form
         method="POST"
-        action="/"
+        action="https://getform.io/f/6773beda-3ad4-44f5-81fa-b73fa6e9d523"
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-4">
