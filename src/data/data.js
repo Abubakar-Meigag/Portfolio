@@ -1,5 +1,5 @@
-import WorkIm from "../assets/projects/workImg.jpeg";
-import RealEst from "../assets/projects/realestate.jpg";
+import WorkIm from "../assets/projectImg/workImg.jpeg";
+import RealEst from "../assets/projectImg/realestate.jpg";
 
 export const data = [
   {
@@ -25,6 +25,20 @@ export const data = [
   },
   {
     id: 4,
+    name: "React JS Application",
+    image: RealEst,
+    github: "",
+    live: "",
+  },
+  {
+    id: 5,
+    name: "React JS Application",
+    image: WorkIm,
+    github: "",
+    live: "",
+  },
+  {
+    id: 6,
     name: "React JS Application",
     image: RealEst,
     github: "",
