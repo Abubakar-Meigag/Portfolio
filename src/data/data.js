@@ -1,47 +1,51 @@
-import WorkIm from "../assets/projectImg/workImg.jpeg";
-import RealEst from "../assets/projectImg/realestate.jpg";
+import videos from "../assets/projectImg/videos.png";
+import hotelNode from "../assets/projectImg/HotelNode.png";
+import chatServer from "../assets/projectImg/chatServer.png";
+import quotes from "../assets/projectImg/QuotesServer.png";
+import hotelReact from "../assets/projectImg/HotelReact.png";
+import tvShow from "../assets/projectImg/TvShow.png";
 
 export const data = [
   {
     id: 1,
-    name: "React JS Application",
-    image: WorkIm,
-    github: "",
-    live: "",
+    name: "Beko Videos Full Stack app",
+    image: videos,
+    github: "https://github.com/Abubakar-Meigag/Full-Stack-Project-Assessment",
+    live: "beko-video-project-fs-assessment-frontend.onrender.com/",
   },
   {
     id: 2,
-    name: "React JS Application",
-    image: RealEst,
-    github: "",
-    live: "",
+    name: "Hotel Booking app NodeJs",
+    image: hotelNode,
+    github: "https://github.com/Abubakar-Meigag/Hotel-Booking-api-app",
+    live: "https://beko-hotel-booking-api-app.netlify.app/",
   },
   {
     id: 3,
-    name: "React JS Application",
-    image: WorkIm,
-    github: "",
-    live: "",
+    name: "Chat server - Node with ReactJS",
+    image: chatServer,
+    github: "https://github.com/Abubakar-Meigag/chat-server-react-app",
+    live: "beko-chat-server.netlify.app/",
   },
   {
     id: 4,
-    name: "React JS Application",
-    image: RealEst,
-    github: "",
-    live: "",
+    name: "quotes server - Node with ReactJS app",
+    image: quotes,
+    github: "https://github.com/Abubakar-Meigag/quotes-server-react-app",
+    live: "https://beko-quotes-server-on-react.netlify.app/",
   },
   {
     id: 5,
-    name: "React JS Application",
-    image: WorkIm,
-    github: "",
-    live: "",
+    name: "CYF Hotel - ReactJS app",
+    image: hotelReact,
+    github: "https://github.com/Abubakar-Meigag/cyf-hotel-react",
+    live: "https://hotel-react-project-abubakar-meigag.netlify.app/",
   },
   {
     id: 6,
-    name: "React JS Application",
-    image: RealEst,
-    github: "",
-    live: "",
+    name: "TV show DOM Project",
+    image: tvShow,
+    github: "https://github.com/Abubakar-Meigag/tv-show-dom-project",
+    live: "https://cyf-abubakar-meigag-tv.netlify.app/",
   },
 ];
