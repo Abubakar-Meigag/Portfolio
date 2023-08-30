@@ -89,7 +89,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 font-bold">
             <a
               className="flex justify-between item-center w-full text-white"
-              href="/"
+              href="https://www.linkedin.com/in/abubakar-meigag-0a625a17a/"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -97,7 +97,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] font-bold">
             <a
               className="flex justify-between item-center w-full text-white"
-              href="/"
+              href="https://github.com/Abubakar-Meigag"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -105,7 +105,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500 font-bold">
             <a
               className="flex justify-between item-center w-full text-white	"
-              href="/"
+              href="mailto:abubakar.meigag@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -113,7 +113,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f68] font-bold">
             <a
               className="flex justify-between item-center w-full text-white"
-              href="/"
+              href="https://docs.google.com/document/d/1wbV23AXMWoExXVqBSWb1v-53N7T6VCnaYU_doksIGew/edit#heading=h.5rf9wr4r3no2"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

@@ -15,8 +15,8 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
-          <p className="text-gray-300 py-4">
-            Here fill up the form to contact you...!!
+          <p className="text-sky-100 text-[25px] py-4">
+            Here fill up the form to contact you
           </p>
         </div>
         <input
