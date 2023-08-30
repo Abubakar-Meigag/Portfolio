@@ -2,12 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
-      name="about"
-      className="w-full h-screen pl-[80px]  bg-[#0a192f] text-gray-100"
-    >
+    <div name="about" className="w-full h-screen bg-[#0a192f] text-gray-100">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <div className="max-w-[1000px] w-full  grid grid-cols-2 gap-8">
+        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-pink-600">
               About
@@ -23,7 +20,7 @@ const About = () => {
               work and contact with me via below contact Box or by my Email
             </p>
             <br />
-            <p className="sm:text-right text-3xl font-bold pb-5">Thank you</p>
+            <p className="sm:text-right text-1xl font-bold">Thank you</p>
           </div>
 
           <div>

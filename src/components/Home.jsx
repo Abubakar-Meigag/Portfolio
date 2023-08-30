@@ -3,8 +3,8 @@ import {HiArrowNarrowRight} from "react-icons/hi"
 
 const Home = () => {
 return (
-  <div name="home" className="w-full h-screen pl-[80px] bg-[#0a192f]">
-    <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+  <div name="home" className="w-full h-screen bg-[#0a192f]">
+    <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full">
       <p className="text-pink-600 font-bold text-2xl">Hi my name is </p>
       <h1 className="text-3xl sm:text-6xl font-bold text-[#d4e0e5]">
         Abubakar Meigag
@@ -22,7 +22,8 @@ return (
         and <strong className="text-[#d4e0e5]">Agile</strong> work practice
         experience. With awareness and training in additional new techniques
         such as{" "}
-        <strong className="text-[#d4e0e5]">MongoDB and Tailwind CSS.</strong> With a wonderful professional development team to improve my Soft
+        <strong className="text-[#d4e0e5]">MongoDB and Tailwind CSS.</strong>{" "}
+        With a wonderful professional development team to improve my Soft
         Skills. In addition to: I am eager to apply my skills in addition to
         contributing to substantial projects as a web developer.
       </p>
