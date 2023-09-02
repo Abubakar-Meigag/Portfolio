@@ -11,7 +11,7 @@ export const data = [
     name: "Beko Videos Full Stack app",
     image: videos,
     github: "https://github.com/Abubakar-Meigag/Full-Stack-Project-Assessment",
-    live: "https://beko-video-project-fs-assessment-frontend.onrender.com/",
+    live: "https://beko-full-stack-project-assessment.onrender.com",
   },
   {
     id: 2,
