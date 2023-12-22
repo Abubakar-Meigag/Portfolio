@@ -10,28 +10,30 @@ return (
       <h1 className="text-3xl sm:text-6xl font-bold text-[#d4e0e5]">
         Abubakar Meigag
       </h1>
-      <h2 className="text-3xl sm:text-5xl font-bold text-[#d4e0e5]">
-        I'm Full Stack Developer
+      <h2 className="text-3xl sm:text-3xl font-bold text-[#d4e0e5]">
+        I'm Full-Stack Developer
       </h2>
       <p className="text-[#a2a4b1] py-4 max-w-[700px]">
-        As a full-stack web developer, I have recently completed my training
-        program with CodeYourFuture BootCamp, with a strong foundation in these
-        technologies{" "}
+        I achieved my dream of becoming a Full-Stack Developer after completing
+        the CodeYourFuture program. Proficient in{" "}
         <strong className="text-[#d4e0e5]">
-          HTML, CSS, JavaScript, ReactJS, Node, SQL
-        </strong>{" "}
-        and <strong className="text-[#d4e0e5]">Agile</strong> work practice
-        experience. With awareness and training in additional new techniques
-        such as{" "}
-        <strong className="text-[#d4e0e5]">MongoDB and Tailwind CSS.</strong>{" "}
-        With a wonderful professional development team to improve my Soft
-        Skills. In addition to: I am eager to apply my skills in addition to
-        contributing to substantial projects as a web developer.
+          {" "}
+          HTML, CSS, JavaScript, React, Node, PostgreSQL, MongoDB, AWS
+          technologies{" "}
+        </strong>
+        , and <strong className="text-[#d4e0e5]">Agile</strong> work practice
+        experience. Successfully led a team in a final project incorporating
+        various technologies, including (supabase) for databases. Possess over
+        <strong className="text-[#d4e0e5]"> 15 years</strong> of leadership
+        experience in customer service and administration in the retail
+        industry. A versatile professional with strong technical skills and a
+        proven track record in soft skills like communication, team building,
+        and conflict resolution.
       </p>
       <div>
         <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
           <Link to="work" smooth={true} duration={500}>
-          View MY Work
+            View MY Work
           </Link>
           <span className="group-hover:rotate-90 duration-300">
             <HiArrowNarrowRight className="ml-3" />
@@ -39,7 +41,7 @@ return (
         </button>
       </div>
     </div>
-  </div> 
+  </div>
 );
 }
 

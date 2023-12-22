@@ -113,7 +113,7 @@ const Nav = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f68] font-bold">
             <a
               className="flex justify-between item-center w-full text-white"
-              href="https://docs.google.com/document/d/1wbV23AXMWoExXVqBSWb1v-53N7T6VCnaYU_doksIGew/edit#heading=h.5rf9wr4r3no2"
+              href="https://docs.google.com/document/d/1C19804Mq4wFVLox_TL14HeN4p3DovrlaorEHz2RxUq8/edit?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
