@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../assets/logo-beko.png";
 import {Link} from 'react-scroll'
 
@@ -22,11 +21,6 @@ const Nav = () => {
           </Link>
         </li>
         <li className="hover:text-pink-600 font-bold">
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className="hover:text-pink-600 font-bold">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
@@ -34,6 +28,11 @@ const Nav = () => {
         <li className="hover:text-pink-600 font-bold">
           <Link to="work" smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li className="hover:text-pink-600 font-bold">
+          <Link to="about" smooth={true} duration={500}>
+            About
           </Link>
         </li>
         <li className="hover:text-pink-600 font-bold">
@@ -108,14 +107,6 @@ const Nav = () => {
               href="mailto:abubakar.meigag@gmail.com"
             >
               Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f68] font-bold">
-            <a
-              className="flex justify-between item-center w-full text-white"
-              href="https://docs.google.com/document/d/1C19804Mq4wFVLox_TL14HeN4p3DovrlaorEHz2RxUq8/edit?usp=sharing"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

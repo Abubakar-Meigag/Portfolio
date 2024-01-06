@@ -23,7 +23,7 @@ return (
         </strong>
         , and <strong className="text-[#d4e0e5]">Agile</strong> work practice
         experience. Successfully led a team in a final project incorporating
-        various technologies, including (supabase) for databases. Possess over
+        various technologies, including (Supabase) for databases. Possess over
         <strong className="text-[#d4e0e5]"> 15 years</strong> of leadership
         experience in customer service and administration in the retail
         industry. A versatile professional with strong technical skills and a

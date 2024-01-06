@@ -2,9 +2,7 @@ import React from "react";
 import { data } from "../data/data.js";
 
 const Work = () => {
-  // projects file
   const project = data;
-  //setProject(data);
 
   return (
     <div
@@ -19,9 +17,7 @@ const Work = () => {
           <p className="py-3">Check out some of my recent work</p>
         </div>
 
-        {/* container for projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Gird Item */}
           {project.map((item, index) => (
             <div
               key={index}
