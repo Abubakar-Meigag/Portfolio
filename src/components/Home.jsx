@@ -25,7 +25,6 @@ return (
             "Backend Developer.",
             2000,
           ]}
-          className="text-pink-500"
           cursorStyle={true}
           repeat={Infinity}
           style={{ fontSize: "1em", paddingLeft: "5px" }}
