@@ -32,7 +32,7 @@ const About = () => {
           >
             <p>
               Thank you for taking the time to review my portfolio. Please take
-              a moment to browse through my work and don't hesitate to contact
+              a moment to browse through my works and don't hesitate to contact
               me using the form below, via email, or through my LinkedIn.
             </p>
             <br />
