@@ -52,17 +52,25 @@ const About = () => {
               <br />
               <br />
               My greatest dream and now passion is to learn and develop as a
-              coder. My love for coding fuels my patience and determination to
-              master it. I found an amazing opportunity at the coding program
-              CodeYourFuture, where I learned coding and built up a strong
-              foundation to be successful in my profession.
+              coder.{" "}
+              <strong className="text-[#d4e0e5]">
+                My love for coding
+              </strong>{" "}
+              fuels my patience and determination to master it. I found an
+              amazing opportunity at the coding program CodeYourFuture, where I
+              learned coding and built up a strong foundation to be successful
+              in my profession.
               <br />
               <br />
-              My goal is to bring our shared vision to fruition by creating
-              something that provides an exceptional user experience. Whether
-              you share my enthusiasm, are interested in collaborating, or are
-              simply curious about the world of web development, I am thrilled
-              to have you here.
+              <strong className="text-[#d4e0e5]">My goal</strong> is to bring
+              our shared vision to fruition by creating something that provides
+              {" "}
+              <strong className="text-[#d4e0e5]">
+                an exceptional user experience.
+              </strong>{" "}
+              Whether you share my enthusiasm, are interested in collaborating,
+              or are simply curious about the world of web development, I am
+              thrilled to have you here.
             </p>
           </div>
         </div>
