@@ -30,7 +30,7 @@ return (
           style={{ fontSize: "1em", paddingLeft: "5px" }}
         />
       </h2>
-      <p className="text-[#afb1bb] py-4 max-w-[700px]">
+      <p className="text-[#babdc9] py-4 max-w-[700px]">
         I achieved my dream of becoming a Software Engineer after completing the
         CodeYourFuture program. Proficient in{" "}
         <strong className="text-[#d4e0e5]">
