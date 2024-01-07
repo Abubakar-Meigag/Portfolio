@@ -14,9 +14,8 @@ return (
       <h1 className="text-3xl sm:text-6xl font-bold text-[#d4e0e5]">
         Abubakar Meigag
       </h1>
-      <h2 className="text-3xl sm:text-3xl font-bold text-[#d4e0e5]">
-        <span className="font-bold">
-          <TypeAnimation
+      <h2 className="inline text-3xl sm:text-3xl font-bold text-[#d4e0e5]">
+        I'm a {" "}<TypeAnimation
             sequence={[
               "Software Engineer.",
               2000,
@@ -25,12 +24,10 @@ return (
               "Backend Developer.",
               2000,
             ]}
-            wrapper="div"
             cursorStyle={true}
             repeat={Infinity}
             style={{ fontSize: "1em", paddingLeft: "5px" }}
           />
-        </span>
       </h2>
       <p className="text-[#afb1bb] py-4 max-w-[700px]">
         I achieved my dream of becoming a Full-Stack Developer after completing
