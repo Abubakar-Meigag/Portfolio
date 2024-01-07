@@ -15,19 +15,21 @@ return (
         Abubakar Meigag
       </h1>
       <h2 className="inline text-3xl sm:text-3xl font-bold text-[#d4e0e5]">
-        I'm a {" "}<TypeAnimation
-            sequence={[
-              "Software Engineer.",
-              2000,
-              "Frontend Developer.",
-              2000,
-              "Backend Developer.",
-              2000,
-            ]}
-            cursorStyle={true}
-            repeat={Infinity}
-            style={{ fontSize: "1em", paddingLeft: "5px" }}
-          />
+        I'm a{" "}
+        <TypeAnimation
+          sequence={[
+            "Software Engineer.",
+            2000,
+            "Frontend Developer.",
+            2000,
+            "Backend Developer.",
+            2000,
+          ]}
+          className="text-pink-500"
+          cursorStyle={true}
+          repeat={Infinity}
+          style={{ fontSize: "1em", paddingLeft: "5px" }}
+        />
       </h2>
       <p className="text-[#afb1bb] py-4 max-w-[700px]">
         I achieved my dream of becoming a Full-Stack Developer after completing
