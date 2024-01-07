@@ -31,9 +31,9 @@ const About = () => {
             data-aos="fade-right"
           >
             <p>
-              Thank you for taking the time to view my portfolio. Please feel
-              free to review my work and contact me using the form below or via
-              email
+              Thank you for taking the time to review my portfolio. Please take
+              a moment to browse through my work and don't hesitate to contact
+              me using the form below, via email, or through my LinkedIn.
             </p>
             <br />
             <p className="sm:text-right text-1xl font-bold">Thank you</p>
@@ -63,8 +63,7 @@ const About = () => {
               <br />
               <br />
               <strong className="text-[#d4e0e5]">My goal</strong> is to bring
-              our shared vision to fruition by creating something that provides
-              {" "}
+              our shared vision to fruition by creating something that provides{" "}
               <strong className="text-[#d4e0e5]">
                 an exceptional user experience.
               </strong>{" "}
