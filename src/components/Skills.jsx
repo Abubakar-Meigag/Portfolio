@@ -84,11 +84,11 @@ const Skills = () => {
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
               <img
-                className="w-10 mx-auto"
+                className="w-14 mx-auto"
                 src={Bootstrap}
                 alt="Tailwind icon"
               />
-              <p className="my-4">Bootstrap</p>
+              <p className="my-3">Bootstrap</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
               <img
