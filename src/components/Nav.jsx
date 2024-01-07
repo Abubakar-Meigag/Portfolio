@@ -8,7 +8,7 @@ const Nav = () => {
     const [navbar, setNavbar] = useState(false);
     const handleClick = () => setNavbar(!navbar);
   return (
-    <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-200">
       <div>
         <img src={logo} alt="web-logo" style={{ width: "135px" }} />
       </div>

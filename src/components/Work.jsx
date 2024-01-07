@@ -8,7 +8,7 @@ const Work = () => {
   const project = data;
 
     useEffect(() => {
-    Aos.init({duration: 2000})
+    Aos.init({duration: 1000})
   }, [])
 
 
@@ -25,7 +25,7 @@ const Work = () => {
           <p className="py-3">Check out some of my recent work</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4" data-aos="zoom-out">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4" data-aos="zoom-in">
           {project.map((item, index) => (
             <div
               key={index}

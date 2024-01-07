@@ -13,7 +13,7 @@ return (
       <h2 className="text-3xl sm:text-3xl font-bold text-[#d4e0e5]">
         I'm Full-Stack Developer
       </h2>
-      <p className="text-[#a2a4b1] py-4 max-w-[700px]">
+      <p className="text-[#afb1bb] py-4 max-w-[700px]">
         I achieved my dream of becoming a Full-Stack Developer after completing
         the CodeYourFuture program. Proficient in{" "}
         <strong className="text-[#d4e0e5]">
