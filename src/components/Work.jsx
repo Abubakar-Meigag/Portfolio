@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { data } from "../data/data.js";
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 
 const Work = () => {
   const project = data;
+
+    useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
+
 
   return (
     <div
@@ -17,7 +25,7 @@ const Work = () => {
           <p className="py-3">Check out some of my recent work</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4" data-aos="zoom-out">
           {project.map((item, index) => (
             <div
               key={index}
