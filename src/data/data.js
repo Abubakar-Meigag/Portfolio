@@ -12,7 +12,7 @@ export const data = [
     image: videos,
     Technology: "React.js - CSS - Node.js - Express.js - SQL",
     Description:
-      "Completed the advanced challenge by integrating a React app, 'quotes-react-app' with the Glitch server. The React app fetches random quotes from the server, enhanced by a bonus feature allowing users to refresh quotes with a button click. CORS was implemented for seamless communication between the Netlify-hosted React app and Glitch server. Successfully hosted the React app on Netlify",
+      "Crafted a user-centric Video Recommendation App for seamless YouTube video management, incorporating features such as adding, liking, searching, selecting and removing videos. Independently designed the UI using React and facilitated smooth navigation with React Dom. Employed node.js Express for the backend, hosted on Render alongside an SQL database for data storage. Implemented robust validation for ensuring accurate input and output, utilizing Restful practices through node express for efficient handling of GET, POST, and DELETE operations. Achieved a comprehensive solution for an intuitive video recommendation experience",
     github: "https://github.com/Abubakar-Meigag/Full-Stack-Project-Assessment",
     live: "https://beko-full-stack-project-assessment.onrender.com/",
   },
