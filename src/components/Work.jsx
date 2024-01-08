@@ -31,10 +31,10 @@ const Work = () => {
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
           data-aos="zoom-in"
         >
-          {project.map((item, index) => (
+          {project.map((item) => (
             <div className="border-2 border-gray-800 rounded-md hover:border-gray-400">
               <div
-                key={index}
+                key={item.id}
                 style={{ backgroundImage: `url(${item.image})` }}
                 className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "
