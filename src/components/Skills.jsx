@@ -21,7 +21,10 @@ const Skills = () => {
   }, [])
 
     return (
-      <div name="skills" className="w-full h-screen pt-16 bg-[#0a192f] text-gray-100">
+      <div
+        name="skills"
+        className="w-full h-screen pt-16 bg-[#0a192f] text-gray-100"
+      >
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div>
             <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
@@ -51,30 +54,6 @@ const Skills = () => {
               <p className="my-4">JavaScript</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-10 mx-auto" src={GitHup} alt="GitHup icon" />
-              <p className="my-4">GitHup</p>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-10 mx-auto" src={ReactJS} alt="ReactJS icon" />
-              <p className="my-4">React JS</p>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-10 mx-auto" src={Node} alt="NodeJS icon" />
-              <p className="my-4">Node JS</p>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img
-                className="w-16 mx-auto"
-                src={postgresSQL}
-                alt="PostgresSQL icon"
-              />
-              <p className="">Postgres SQL</p>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-              <img className="w-10 mx-auto" src={Mongo} alt="MongoDB icon" />
-              <p className="my-4">Mongo DB</p>
-            </div>
-            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
               <img
                 className="w-10 mx-auto"
                 src={Tailwind}
@@ -99,12 +78,32 @@ const Skills = () => {
               <p className="my-4">Material UI</p>
             </div>
             <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-10 mx-auto" src={ReactJS} alt="ReactJS icon" />
+              <p className="my-4">React JS</p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-10 mx-auto" src={Node} alt="NodeJS icon" />
+              <p className="my-4">Node JS</p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
               <img
-                className="w-10 mx-auto"
-                src={AWS}
-                alt="AWS icon"
+                className="w-16 mx-auto"
+                src={postgresSQL}
+                alt="PostgresSQL icon"
               />
+              <p className="">Postgres SQL</p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-10 mx-auto" src={Mongo} alt="MongoDB icon" />
+              <p className="my-4">Mongo DB</p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-10 mx-auto" src={AWS} alt="AWS icon" />
               <p className="my-4">AWS</p>
+            </div>
+            <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+              <img className="w-10 mx-auto" src={GitHup} alt="GitHup icon" />
+              <p className="my-4">GitHup</p>
             </div>
           </div>
         </div>

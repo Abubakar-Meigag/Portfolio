@@ -61,11 +61,6 @@ const Nav = () => {
           </Link>
         </li>
         <li className="py-6 hover:text-pink-600 font-bold text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className="py-6 hover:text-pink-600 font-bold text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
@@ -73,6 +68,11 @@ const Nav = () => {
         <li className="py-6 hover:text-pink-600 font-bold text-4xl">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li className="py-6 hover:text-pink-600 font-bold text-4xl">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
           </Link>
         </li>
         <li className="py-6 hover:text-pink-600 font-bold text-4xl">

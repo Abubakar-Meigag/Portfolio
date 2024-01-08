@@ -26,9 +26,9 @@
     height: 190px;
 }
 
-.content-div:hover {
+/* .content-div:hover {
     background-image: linear-gradient(
         to right,
         rgba(83, 84, 85, 0.8),
         hsla(242, 33%, 63%, 0.8)) !important;
-}
+} */
