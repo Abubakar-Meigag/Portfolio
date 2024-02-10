@@ -35,7 +35,7 @@ return (
         CodeYourFuture program. Proficient in{" "}
         <strong className="text-[#d4e0e5]">
           {" "}
-          HTML, CSS, JavaScript, React.js, Node.js, PostgreSQL, MongoDB, AWS
+          HTML, CSS, JavaScript, React.js, TDD, Node.js, PostgreSQL, MongoDB, AWS
           technologies{" "}
         </strong>
         , and <strong className="text-[#d4e0e5]">Agile</strong> work practice
