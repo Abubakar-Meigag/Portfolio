@@ -1,11 +1,22 @@
 import videos from "../assets/projectImg/videos.png";
 import chatServer from "../assets/projectImg/chatServer.png";
-import quotes from "../assets/projectImg/QuotesServer.png";
+import deja from "../assets/projectImg/deja-img.png"
+// import quotes from "../assets/projectImg/QuotesServer.png";
 // import hotelNode from "../assets/projectImg/HotelNode.png";
 // import hotelReact from "../assets/projectImg/HotelReact.png";
 // import tvShow from "../assets/projectImg/TvShow.png";
 
 export const data = [
+  {
+    id: 1,
+    name: "DEJA Review - Team project",
+    image: deja,
+    Technology: "React.js - CSS - Node - Express.js - SQL - Auth0 - Supabase - Tailwind CSS",
+    Description:
+    "The project implemented spaced repetition learning technique, utilising it as preparatory work multiple times throughout the course. This method entails revisiting topics at increasing intervals e.g. after one week, one month, three months, six months, and one year. Collaborated with a dynamic team on a fulfilling project, guided by a dedicated tech lead and project manager. Our approach included weekly sprints and effective workflow management using GitHub boards",
+    github: "https://github.com/Abubakar-Meigag/FinalProject-DejaReview-teamUnity-Ldn10",
+    live: "https://fp-deja-review-frontend.onrender.com/",
+  },
   {
     id: 1,
     name: "Beko Videos Full Stack app",
@@ -35,16 +46,16 @@ export const data = [
     github: "https://github.com/Abubakar-Meigag/chat-server-react-app",
     live: "https://beko-chat-server.netlify.app/",
   },
-  {
-    id: 4,
-    name: "Quotes app server",
-    image: quotes,
-    Technology: "React.js - Nodejs - Glitch server",
-    Description:
-      "Completed the advanced challenge by integrating a React app, 'quotes-react-app' with the Glitch server. The React app fetches random quotes from the server, enhanced by a bonus feature allowing users to refresh quotes with a button click. CORS was implemented for seamless communication between the Netlify-hosted React app and Glitch server. Successfully hosted the React app on Netlify",
-    github: "https://github.com/Abubakar-Meigag/quotes-server-react-app",
-    live: "https://beko-quotes-server-on-react.netlify.app/",
-  },
+  // {
+  //   id: 4,
+  //   name: "Quotes app server",
+  //   image: quotes,
+  //   Technology: "React.js - Nodejs - Glitch server",
+  //   Description:
+  //     "Completed the advanced challenge by integrating a React app, 'quotes-react-app' with the Glitch server. The React app fetches random quotes from the server, enhanced by a bonus feature allowing users to refresh quotes with a button click. CORS was implemented for seamless communication between the Netlify-hosted React app and Glitch server. Successfully hosted the React app on Netlify",
+  //   github: "https://github.com/Abubakar-Meigag/quotes-server-react-app",
+  //   live: "https://beko-quotes-server-on-react.netlify.app/",
+  // },
   // {
   //   id: 5,
   //   name: "CYF Hotel",
