@@ -10,7 +10,7 @@ const Home = () => {
 return (
   <div name="home" className="w-full h-screen bg-[#0a192f]">
     <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full">
-      <p className="text-pink-600 font-bold text-2xl">Hi my name is </p>
+      <p className="text-pink-600 font-bold text-2xl">Hi, my name is </p>
       <h1 className="text-3xl sm:text-6xl font-bold text-[#d4e0e5]">
         Abubakar Meigag
       </h1>
@@ -40,7 +40,7 @@ return (
         </strong>
         , and <strong className="text-[#d4e0e5]">Agile</strong> work practice
         experience. Successfully led a team in a final project incorporating
-        various technologies, including (supabase) for databases. Possess over
+        various technologies, including Supabase for databases. Possess over
         <strong className="text-[#d4e0e5]"> 15 years</strong> of leadership
         experience in customer service and administration in the retail
         industry. A versatile professional with strong technical skills and a

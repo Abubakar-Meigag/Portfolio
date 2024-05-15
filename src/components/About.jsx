@@ -1,14 +1,11 @@
 import React, { useEffect } from "react";
-import Aos from 'aos';
-import 'aos/dist/aos.css'
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
-
-    useEffect(() => {
-      Aos.init({duration: 2000})
-    }, [])
-  
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
 
   return (
     <div
@@ -32,27 +29,26 @@ const About = () => {
           >
             <p>
               Thank you for taking the time to review my portfolio. Please take
-              a moment to browse through my works and please contact
-              me using the form below, via email, or through my LinkedIn.
+              a moment to browse through my work, and please contact me using
+              the form below, via email, or through my LinkedIn.
             </p>
             <br />
             <p className="sm:text-right text-1xl font-bold">Thank you</p>
           </div>
           <div data-aos="fade-left" className="text-[#caccd7]">
             <p className="text-[15px]">
-              As a person, to lead gives me personal fulfilment, I like to learn
-              from others by being a good listener, I easily adapt and I have
-              great confidence in my abilities. In my profession, I have gained
-              more than{" "}
+              As a person, I like to learn from others by being a good listener,
+              and I do possess a knack for adapting with ease whilst harbouring
+              considerable confidence in me own abilities. In my profession, I
+              have gained more than{" "}
               <strong className="text-[#d4e0e5]">15 years of experience</strong>{" "}
-              in customer service and administrative work, I have experience
+              in customer service and administrative work. I have experience
               leading teams and developing skills in team building,
               communication, task distribution, time management, critical
-              thinking, conflict resolution, and cooperation.
+              thinking, conflict resolution, and cooperation
               <br />
               <br />
-              My greatest dream and now passion is to learn and develop as a
-              coder.{" "}
+              My greatest dream and passion is to learn and develop as a coder.{" "}
               <strong className="text-[#d4e0e5]">
                 My love for coding
               </strong>{" "}
