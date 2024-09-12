@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../assets/logo-beko.png";
 import {Link} from 'react-scroll'
 
@@ -9,7 +8,7 @@ const Nav = () => {
     const [navbar, setNavbar] = useState(false);
     const handleClick = () => setNavbar(!navbar);
   return (
-    <div className="fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[100px] z-50 flex justify-between items-center px-4 bg-[#0a192f] text-gray-200">
       <div>
         <img src={logo} alt="web-logo" style={{ width: "135px" }} />
       </div>
@@ -22,11 +21,6 @@ const Nav = () => {
           </Link>
         </li>
         <li className="hover:text-pink-600 font-bold">
-          <Link to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className="hover:text-pink-600 font-bold">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
@@ -34,6 +28,11 @@ const Nav = () => {
         <li className="hover:text-pink-600 font-bold">
           <Link to="work" smooth={true} duration={500}>
             Work
+          </Link>
+        </li>
+        <li className="hover:text-pink-600 font-bold">
+          <Link to="about" smooth={true} duration={500}>
+            About
           </Link>
         </li>
         <li className="hover:text-pink-600 font-bold">
@@ -62,11 +61,6 @@ const Nav = () => {
           </Link>
         </li>
         <li className="py-6 hover:text-pink-600 font-bold text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className="py-6 hover:text-pink-600 font-bold text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
@@ -77,6 +71,11 @@ const Nav = () => {
           </Link>
         </li>
         <li className="py-6 hover:text-pink-600 font-bold text-4xl">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 hover:text-pink-600 font-bold text-4xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -84,7 +83,7 @@ const Nav = () => {
       </ul>
 
       {/* social icons*/}
-      <div className="hidden  md:flex fixed flex-col top-[35%] left-0">
+      <div className="hidden  lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 font-bold">
             <a
@@ -108,14 +107,6 @@ const Nav = () => {
               href="mailto:abubakar.meigag@gmail.com"
             >
               Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f68] font-bold">
-            <a
-              className="flex justify-between item-center w-full text-white"
-              href="https://docs.google.com/document/d/1wbV23AXMWoExXVqBSWb1v-53N7T6VCnaYU_doksIGew/edit#heading=h.5rf9wr4r3no2"
-            >
-              Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
