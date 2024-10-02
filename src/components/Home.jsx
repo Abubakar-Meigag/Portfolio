@@ -20,9 +20,9 @@ return (
           sequence={[
             "Software Engineer.",
             2000,
-            "Frontend Developer.",
+            "Full-Stack Developer.",
             2000,
-            "Backend Developer.",
+            "Cloud Support Engineer.",
             2000,
           ]}
           cursorStyle={true}
