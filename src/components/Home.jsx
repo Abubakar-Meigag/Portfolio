@@ -18,11 +18,11 @@ return (
         I'm a{" "}
         <TypeAnimation
           sequence={[
-            "Software Engineer.",
+            "DevOps Engineer.",
+            2000,
+            "Platform Engineer.",
             2000,
             "Full-Stack Developer.",
-            2000,
-            "Cloud Support Engineer.",
             2000,
           ]}
           cursorStyle={true}
