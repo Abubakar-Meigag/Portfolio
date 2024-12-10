@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
-import JavaScript from "../assets/javascript.png";
-import CSS from "../assets/css.png";
-import Html from "../assets/html.png";
-import GitHup from "../assets/github.png";
-import Node from "../assets/node.png";
-import ReactJS from "../assets/react.png";
-import Python from "../assets/python.jpeg";
-import postgresSQL from "../assets/pngwing.com.png";
-import Tailwind from "./../assets/tailwind.png";
-import Git from "./../assets/git.png";
-import Bootstrap from "./../assets/bootstrap.png";
-import Material from "./../assets/material-UI.png";
+import JavaScript from "../assets/skills-icons/javascript.png";
+import CSS from "../assets/skills-icons/css.png";
+import Html from "../assets/skills-icons/html.png";
+import GitHup from "../assets/skills-icons/github.png";
+import Node from "../assets/skills-icons/node.png";
+import ReactJS from "../assets/skills-icons/react.png";
+import Python from "../assets/skills-icons/python.jpeg";
+import postgresSQL from "../assets/skills-icons/pngwing.com.png";
+import Tailwind from "./../assets/skills-icons/tailwind.png";
+import Git from "./../assets/skills-icons/git.png";
+import Bootstrap from "./../assets/skills-icons/bootstrap.png";
+import Material from "./../assets/skills-icons/material-UI.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 

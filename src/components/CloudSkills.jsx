@@ -9,7 +9,7 @@ import Lambda from "../assets/cloud-icons/lambda.jpeg";
 import Linux from "../assets/cloud-icons/Linux.jpeg";
 import RDS from "./../assets/cloud-icons/RDS.jpeg";
 import S3 from "./../assets/cloud-icons/S3.jpeg";
-import security from "./../assets/cloud-icons/security.jpeg";
+import security from "./../assets/cloud-icons/security.png";
 import VPC from "./../assets/cloud-icons/VPC.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -83,7 +83,7 @@ const CloudSkills = () => {
             <p className="my-4">Auto-Scaling</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-14 mx-auto" src={security} alt="security icon" />
+            <img className="w-[110px] mx-auto" src={security} alt="security icon" />
             <p className="my-4">Security</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">

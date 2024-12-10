@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import logo from "../assets/logo-beko.png";
+import logo from "../assets/skills-icons/logo-beko.png";
 import {Link} from 'react-scroll'
 
 const Nav = () => {
