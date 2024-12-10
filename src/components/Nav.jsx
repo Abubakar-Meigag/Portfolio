@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import logo from "../assets/skills-icons/logo-beko.png";
+import { LiaCertificateSolid } from "react-icons/lia";
+import logo from "../assets/skills-icons/beko-logo.png";
 import {Link} from 'react-scroll'
 
 const Nav = () => {
@@ -89,6 +89,7 @@ const Nav = () => {
             <a
               className="flex justify-between item-center w-full text-white"
               href="https://www.linkedin.com/in/abubakar-meigag-0a625a17a/"
+              target="_blank" rel="noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -97,16 +98,18 @@ const Nav = () => {
             <a
               className="flex justify-between item-center w-full text-white"
               href="https://github.com/Abubakar-Meigag"
+              target="_blank" rel="noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500 font-bold">
             <a
-              className="flex justify-between item-center w-full text-white	"
-              href="mailto:abubakar.meigag@gmail.com"
+              className="flex justify-between item-center w-full text-white"
+              href="https://www.credly.com/badges/19b4ead3-5461-40cb-b920-e630b71cf86f/linked_in?t=snvtis"
+              target="_blank" rel="noreferrer"
             >
-              Email <HiOutlineMail size={30} />
+              AWS Certified <LiaCertificateSolid size={30} />
             </a>
           </li>
         </ul>

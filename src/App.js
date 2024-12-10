@@ -1,5 +1,6 @@
 import About from "./components/About";
 import CloudSkills from "./components/CloudSkills";
+import CloudWork from "./components/CloudWork";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <CloudSkills />
       <Work />
+      <CloudWork />
       <About />
       <Contact />
     </div>
