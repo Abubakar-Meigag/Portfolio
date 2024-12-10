@@ -18,6 +18,8 @@ const CloudSkills = () => {
   useEffect(() => {
     Aos.init({ duration: 2500 });
   }, []);
+
+
   return (
     <div
       className="w-full h-screen pt-16 bg-[#0a192f] text-gray-100"
@@ -31,7 +33,7 @@ const CloudSkills = () => {
         </div>
 
         <div
-          className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8"
+          className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 sm:pt-9"
           data-aos="fade-up"
         >
           <div className="shadow-md  shadow-[#040c16] hover:scale-110 duration-500">
