@@ -49,7 +49,7 @@ const Home = () => {
             to="work"
             smooth={true}
             duration={500}
-            className="cursor-pointer"
+            className= "cursor-pointer"
           >
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-500 hover:border-cyan-300 hover:text-[#0a192f]">
               View MY Work
