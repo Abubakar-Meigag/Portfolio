@@ -28,7 +28,7 @@ const CloudWork = () => {
 
         <div
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
-          data-aos="zoom-in"
+          data-aos="zoom-out-left"
         >
           {project.map((item) => (
             <div className="border-2 border-gray-800 rounded-md hover:border-gray-400">
