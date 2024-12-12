@@ -37,25 +37,25 @@ const About = () => {
           </div>
           <div data-aos="fade-left" className="text-[#caccd7]">
             <p className="text-[15px] text-justify">
-              As a person, I like to learn from others by being a good listener,
-              and I do possess a knack for adapting with ease whilst harbouring
-              considerable confidence in me own abilities. In my profession, I
-              have gained more than{" "}
-              <strong className="text-[#d4e0e5]">15 years of experience</strong>{" "}
-              in customer service and administrative work. I have experience
-              leading teams and developing skills in team building,
-              communication, task distribution, time management, critical
-              thinking, conflict resolution, and cooperation
+              I bring passion and enthusiasm for technology as a versatile
+              professional with many years of experience managing people and
+              solving problems. My career has equipped me with the ability to
+              adapt swiftly, think critically, and approach challenges with
+              confidence. Building on a successful background in management and
+              customer service, I transitioned into software engineering through
+              the CodeYourFuture programme. There, I gained hands-on experience
+              in full-stack development, working with technologies such as
+              JavaScript, React, Node.js, PostgreSQL, and TypeScript. I also
+              developed strong foundational skills in RESTful APIs, cloud-based
+              solutions, and Agile workflows.
               <br />
               <br />
-              My greatest dream and passion is to learn and develop as a coder.{" "}
-              <strong className="text-[#d4e0e5]">
-                My love for coding
-              </strong>{" "}
-              fuels my patience and determination to master it. I found an
-              amazing opportunity at the coding program CodeYourFuture, where I
-              learned coding and built up a strong foundation to be successful
-              in my profession.
+              My technical journey deepened with AWS re/Start, where I focused
+              on cloud engineering and DevOps. I developed and deployed
+              infrastructure solutions using AWS services such as EC2, Lambda,
+              RDS, and CloudFormation. My hands-on expertise also extends to
+              Python scripting, Linux systems, networking, and building secure
+              CI/CD pipelines with automation tools like Terraform.
               <br />
               <br />
               <strong className="text-[#d4e0e5]">My goal</strong> is to bring
@@ -64,8 +64,8 @@ const About = () => {
                 an exceptional user experience.
               </strong>{" "}
               Whether you share my enthusiasm, are interested in collaborating,
-              or are simply curious about the world of web development, I am
-              thrilled to have you here.
+              or are simply curious about the dynamic world of software and
+              cloud engineering, I am thrilled to have you here.
             </p>
           </div>
         </div>
