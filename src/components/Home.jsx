@@ -8,11 +8,11 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full">
         <p className="text-cyan-300 font-bold text-2xl">Hi, my name is </p>
-        <h1 className="text-3xl sm:text-6xl font-bold text-[#d4e0e5]">
+        <h1 className="text-3xl sm:text-5xl font-bold text-[#d4e0e5]">
           Abubakar Meigag
         </h1>
         <h2 className="inline text-3xl sm:text-3xl font-bold text-[#d4e0e5]">
-          I'm a{" "}
+            I bring expertise and passion as a
           <TypeAnimation
             sequence={[
               "DevOps Engineer.",
@@ -27,23 +27,18 @@ const Home = () => {
             style={{ fontSize: "1em", paddingLeft: "5px" }}
           />
         </h2>
-        <p className="text-[#babdc9] py-4 max-w-[700px] text-justify">
-          I achieved my dream of becoming a Software Engineer after completing
-          the CodeYourFuture program. Proficient in{" "}
-          <strong className="text-[#d4e0e5]">
-            {" "}
-            HTML, CSS, JavaScript, TypeScript, React.js, TDD, Node.js,
-            PostgreSQL, MongoDB, AWS technologies{" "}
-          </strong>
-          , and <strong className="text-[#d4e0e5]">Agile</strong> work practice
-          experience. Successfully led a team in a final project incorporating
-          various technologies, including Supabase for databases. Possess over
-          <strong className="text-[#d4e0e5]"> 15 years</strong> of leadership
-          experience in customer service and administration in the retail
-          industry. A versatile professional with strong technical skills and a
-          proven track record in soft skills like communication, team building,
-          and conflict resolution.
-        </p>
+
+        
+        <ul className="text-[#c7cad6] list-disc list-inside py-4 max-w-auto">
+        <h2 className="text-[20px]">I will bring:</h2>
+              <li>A thorough understanding of the software development lifecycle <strong className="text-[#d4e0e5]">SDLC</strong>, from whiteboard planning to production deployment.</li>
+              <li>Proficiency in building modern, <strong className="text-[#d4e0e5]">responsive user interfaces</strong> using cutting-edge technologies.</li>
+              <li>The ability to design and develop <strong className="text-[#d4e0e5]">databases</strong>, as well as integrate them with secure <strong className="text-[#d4e0e5]">RESTful APIs</strong>.</li>
+              <li>Strong knowledge of <strong className="text-[#d4e0e5]">Linux</strong>  distributions and  <strong className="text-[#d4e0e5]">networking</strong> concepts, including <strong className="text-[#d4e0e5]">IP, CIDR, TCP, DHCP, DNS</strong>, UDP, and the OSI model.</li>
+              <li>Skills in building, <strong className="text-[#d4e0e5]">automating</strong>, managing, and monitoring secure  <strong className="text-[#d4e0e5]">CI/CD pipelines</strong>, with an understanding of  <strong className="text-[#d4e0e5]">testing</strong> concepts.</li>
+              <li>An AWS  <strong className="text-[#d4e0e5]">Certified</strong> Cloud Practitioner, with a strong grasp of the AWS Well-Architected Framework.</li>
+              <li>Proven skills in  <strong className="text-[#d4e0e5]">debugging</strong> and <strong className="text-[#d4e0e5]">troubleshooting</strong> across front-end, back-end, DevOps, and cloud platforms.</li>
+        </ul>
         <div className="flex flex-wrap gap-2 ">
           <Link
             to="work"
@@ -51,7 +46,7 @@ const Home = () => {
             duration={500}
             className= "cursor-pointer"
           >
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-500 hover:border-cyan-300">
+            <button className="text-white font-semibold group border-2 px-6 py-3 my-2 flex items-center rounded-md hover:bg-cyan-500 hover:border-cyan-300">
               View MY Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
@@ -64,7 +59,7 @@ const Home = () => {
             duration={500}
             className="cursor-pointer"
           >
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-500 hover:border-cyan-300 ">
+            <button className="text-white font-semibold group border-2 px-6 py-3 my-2 flex items-center rounded-md hover:bg-cyan-500 hover:border-cyan-300 ">
               About me 
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />

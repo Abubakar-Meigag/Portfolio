@@ -48,14 +48,14 @@ const Work = () => {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <button className="flex justify-center items-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-md hover:bg-pink-600 hover:text-white">
+                    <button className="flex justify-center items-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-md hover:bg-cyan-300">
                       <FaGithub className="mr-1" />
                       Code Source
                     </button>
                   </a>
 
                   <a href={item.live} rel="noopener noreferrer" target="_blank">
-                    <button className="flex justify-center items-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-md hover:bg-pink-600 hover:text-white">
+                    <button className="flex justify-center items-center rounded-lg px-2 py-2 m-2 bg-white text-gray-700 font-bold text-md hover:bg-cyan-300">
                       <TbExternalLink className="mr-1" />
                       Live Demo
                     </button>
