@@ -17,11 +17,11 @@ const Home = () => {
           <TypeAnimation
             sequence={[
               "DevOps Engineer.",
-              2000,
+              2500,
               "Platform Engineer.",
-              2000,
+              2500,
               "Full-Stack Developer.",
-              2000,
+              2500,
             ]}
             cursorStyle={true}
             repeat={Infinity}
