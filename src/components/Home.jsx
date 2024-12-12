@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-pink-600 font-bold text-2xl">Hi, my name is </p>
+        <p className="text-cyan-300 font-bold text-2xl">Hi, my name is </p>
         <h1 className="text-3xl sm:text-6xl font-bold text-[#d4e0e5]">
           Abubakar Meigag
         </h1>
@@ -51,7 +51,7 @@ const Home = () => {
             duration={500}
             className= "cursor-pointer"
           >
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-500 hover:border-cyan-300 hover:text-[#0a192f]">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-cyan-500 hover:border-cyan-300">
               View MY Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />

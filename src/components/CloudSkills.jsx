@@ -26,7 +26,7 @@ const CloudSkills = () => {
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-300 ">
             Cloud Skills
           </p>
           <p className="py-4">These are AWS Cloud technologies I've worked with</p>
