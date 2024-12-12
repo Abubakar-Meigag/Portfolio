@@ -12,8 +12,8 @@ const Home = () => {
         <h1 className="text-3xl sm:text-5xl font-bold text-[#d4e0e5]">
           Abubakar Meigag
         </h1>
-        <h2 className="inline text-3xl sm:text-3xl font-bold text-[#d4e0e5]">
-            I bring expertise and passion as a
+        <h2 className="inline text-[20px] sm:text-3xl font-bold text-[#d4e0e5]">
+            I bring expertise and passion <br /> as a
           <TypeAnimation
             sequence={[
               "DevOps Engineer.",
