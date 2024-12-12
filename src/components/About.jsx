@@ -27,7 +27,7 @@ const About = () => {
             className="sm:text-right text-3xl font-bold pb-5"
             data-aos="fade-right"
           >
-            <p>
+            <p className="text-justify">
               Thank you for taking the time to review my portfolio. Please take
               a moment to browse through my work, and please contact me using
               the form below, via email, or through my LinkedIn.
@@ -36,7 +36,7 @@ const About = () => {
             <p className="sm:text-right text-1xl font-bold">Thank you</p>
           </div>
           <div data-aos="fade-left" className="text-[#caccd7]">
-            <p className="text-[15px]">
+            <p className="text-[15px] text-justify">
               As a person, I like to learn from others by being a good listener,
               and I do possess a knack for adapting with ease whilst harbouring
               considerable confidence in me own abilities. In my profession, I
