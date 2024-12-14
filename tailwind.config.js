@@ -7,7 +7,7 @@ module.exports = {
         xs: { max: "400px" },
       },
       spacing: {
-        navbarMobile: "80px",
+        navbarMobile: "110px",
       },
     },
   },
