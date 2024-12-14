@@ -9,7 +9,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Nav />
       <Home />
       <Skills />

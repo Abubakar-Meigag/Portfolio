@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xs: { max: "400px" },
+      },
+      spacing: {
+        navbarMobile: "320px",
+      },
+    },
   },
   plugins: [],
 };
