@@ -50,9 +50,9 @@ const Nav = () => {
       {/* Mobile menu */}
       <ul
         className={
-          !navbar
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+          `${
+            navbar ? "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center z-40" : "hidden"
+          }`
         }
       >
         <li className="py-6  hover:text-cyan-300 font-bold text-4xl">
