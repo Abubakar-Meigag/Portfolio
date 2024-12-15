@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        xs: { max: "400px" },
+        xs: { max: "500px" },
       },
       spacing: {
         navbarMobile: "110px",
