@@ -48,7 +48,7 @@ const Home = () => {
             className= "cursor-pointer hidden sm:block"
           >
             <button className="text-white font-semibold group border-2 px-6 py-3 my-2 flex items-center rounded-md hover:bg-cyan-500 hover:border-cyan-300">
-              View MY Work
+              View my work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
               </span>

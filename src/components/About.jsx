@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full md:h-screen pt-10 bg-[#0a192f] text-gray-100"
+      className="w-full pt-8 md:h-screen text-gray-300 bg-[#0a192f]"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
