@@ -15,7 +15,6 @@ const CloudWork = () => {
 
   return (
     <div
-      name="work"
       className="w-full pt-8 md:h-screen text-gray-300 bg-[#0a192f]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -28,7 +27,7 @@ const CloudWork = () => {
 
         <div
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
-          data-aos="zoom-out-left"
+          // data-aos="zoom-out-right"
         >
           {project.map((item) => (
             <div className="border-2 border-gray-800 rounded-md hover:border-gray-400">
