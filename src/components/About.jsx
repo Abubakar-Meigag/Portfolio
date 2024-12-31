@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full pt-8 md:h-screen text-gray-300 bg-[#0a192f]"
+      className="w-full pt-28 md:h-screen text-gray-300 bg-[#0a192f]"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
@@ -22,7 +22,7 @@ const About = () => {
           <div></div>
         </div>
 
-        <div className="max-w-[1000px] w-full sm:grid grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full h-full mx-auto sm:grid grid-cols-2 gap-8 px-4">
           <div
             className="sm:text-right text-3xl font-bold pb-5"
             data-aos="fade-right"
