@@ -69,8 +69,8 @@ const Home = () => {
             </button>
           </Link>
             <a 
-              href="/Abubakar-Meigag-resume.pdf" 
-              download="Abubakar-Meigag-resume.pdf" 
+              href="/Abubakar-Meigag-SE.pdf" 
+              download="Abubakar-Meigag-SE.pdf" 
               className="text-white font-semibold group border-2 px-6 py-3 my-2 flex items-center rounded-md hover:bg-cyan-500 hover:border-cyan-300"
             >
               PDF Resume  
