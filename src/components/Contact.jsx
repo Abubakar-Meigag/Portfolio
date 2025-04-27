@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 
 const Contact = () => {
+
+    useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
+
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full md:h-screen bg-[#0a192f] flex justify-center items-center p-4 pt-16"
     >
       <form
         method="POST"
@@ -12,11 +20,11 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-4">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 border-cyan-300 text-gray-300">
             Contact
           </p>
           <p className="text-sky-100 text-[25px] py-4">
-            Here fill up the form to contact you
+            Please fill up this form to contact you
           </p>
         </div>
         <input
@@ -24,25 +32,30 @@ const Contact = () => {
           type="text"
           placeholder="Name"
           name="name"
+          required
         />
         <input
           className="my-4 p-2 bg-[#ccd6f6]"
           type="email"
           placeholder="Email"
           name="email"
+          required
         />
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
-          rows="10"
+          rows="7"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 font-bold px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-cyan-500 hover:border-cyan-300 font-bold px-4 py-3 my-8 mx-auto flex items-center">
           Submit
         </button>
       </form>
     </div>
   );
 };
+
+
+
 
 export default Contact;

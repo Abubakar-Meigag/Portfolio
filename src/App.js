@@ -1,4 +1,6 @@
 import About from "./components/About";
+import CloudSkills from "./components/CloudSkills";
+import CloudWork from "./components/CloudWork";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
@@ -7,12 +9,14 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Nav />
       <Home />
-      <About />
       <Skills />
+      <CloudSkills />
       <Work />
+      <CloudWork />
+      <About />
       <Contact />
     </div>
   );
